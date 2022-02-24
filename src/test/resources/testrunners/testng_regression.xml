@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Drive Clear Regression Test Suite" thread-count="4"
+	parallel="tests" verbose="4">
+
+	<listeners>
+		<listener
+			 class-name="com.qa.driveclear.listeners.AnnotationTransformer" />
+		<listener
+			 class-name="com.qa.driveclear.listeners.ExtentReportListener" />
+		<listener 
+			class-name="com.qa.driveclear.listeners.AllureReportListener" />
+			
+	</listeners>
+	<test name="Login Page Test">
+		<classes>
+			<class name="com.qa.driveclear.tests.LoginPageTest" />
+		</classes>
+	</test>
+
+	<!-- <test name="Accounts Page Test"> 
+		<classes> 
+			<class name="com.qa.driveclear.tests.AccountsPageTest" />
+		 </classes> 
+	</test> -->
+
+	<!-- <test name="Product Info Page Test">
+		 <classes> 
+		 	<class name="com.qa.driveclear.tests.ProductInfoPageTest" /> 
+		 </classes> 
+	</test> -->
+
+	<!-- <test name="Register Page Test">
+		 <classes>
+		 	 <class name="com.qa.driveclear.tests.RegisterPageTest" />
+		  </classes> 
+	</test> -->
+
+</suite>
