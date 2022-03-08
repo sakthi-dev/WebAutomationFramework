@@ -180,7 +180,6 @@ public class ElementUtil {
 	public void doSelectDropDownByVisibleText(By locator, String visibleText) {
 		Select select = new Select(getElement(locator));
 		select.selectByVisibleText(visibleText);
-		;
 	}
 
 	public void doSelectDropDownByValue(By locator, String value) {
