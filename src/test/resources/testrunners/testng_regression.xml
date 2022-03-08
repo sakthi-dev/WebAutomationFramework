@@ -13,6 +13,11 @@
 			class-name="com.qa.driveclear.listeners.AllureReportListener" />
 			
 	</listeners>
+	<test name="Register Page Test">
+		 <classes>
+		 	 <class name="com.qa.driveclear.tests.RegisterPageTest" />
+		  </classes> 
+	</test>	
 	<test name="Login Page Test">
 		<classes>
 			<class name="com.qa.driveclear.tests.LoginPageTest" />
@@ -31,10 +36,6 @@
 		 </classes> 
 	</test>
 
-	<test name="Register Page Test">
-		 <classes>
-		 	 <class name="com.qa.driveclear.tests.RegisterPageTest" />
-		  </classes> 
-	</test>
+	
 
 </suite>
