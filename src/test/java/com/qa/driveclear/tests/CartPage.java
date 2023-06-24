@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 public class CartPage {
 
 	int i = 10;
+	String name = "Sakthi";
 	
 	@Test
 	public void getEmployeeDetails() {
